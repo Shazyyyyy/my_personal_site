@@ -135,7 +135,7 @@ EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
 STATICFILES_DIRS = (
-    os.psth.join(BASE_DIR , 'static'),
+    os.psth.join(BASE_DIR, 'static'),
 )
 
 
