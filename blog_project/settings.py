@@ -125,7 +125,7 @@ STATIC_ROOT = 'static'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = 'media'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.Email.Backend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.mail.yahoo.com'
 EMAIL_PORT = 465
 EMAIL_HOST_USER = 'korvaloool1@yahoo.com'
