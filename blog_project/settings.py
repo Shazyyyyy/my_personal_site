@@ -129,7 +129,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.mail.yahoo.com'
 EMAIL_PORT = 465
 EMAIL_HOST_USER = 'korvaloool1@yahoo.com'
-EMAIL_HOST_PASSWORDS = 'nmdsavmvporfcjee'
+EMAIL_HOST_PASSWORD = 'nmdsavmvporfcjee'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 

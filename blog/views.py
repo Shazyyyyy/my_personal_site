@@ -18,7 +18,7 @@ def index(request):
             message = form.cleaned_data['message']
             email_message = f"Имя: {name}\n\nЭл.почта: {email}\n\nСообщение: {message}"
             print(f'{name} - {email} - {subject} - {message}')
-            send_mail(subject, email_message, 'korvaloool1@yahoo.com', recipient_list=['korvaloool1@yahoo.com'], fail_silently=False)
+            send_mail(subject=subject, message=email_message, from_email='korvaloool1@yahoo.com', recipient_list=['korvaloool1@yahoo.com'], fail_silently=False)
             return redirect('index')
     else:
         form = ContactMeForm()
